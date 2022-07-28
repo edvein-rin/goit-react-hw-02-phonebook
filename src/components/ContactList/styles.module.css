@@ -1,0 +1,7 @@
+.contact:not(:first-child) {
+  margin-top: 8px;
+}
+
+.button {
+  margin-left: 10px;
+}

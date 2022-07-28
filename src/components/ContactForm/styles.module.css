@@ -1,0 +1,20 @@
+.form {
+  display: flex;
+  flex-direction: column;
+
+  padding: 8px;
+
+  border: 1px solid black;
+}
+
+.inputWrapper {
+  margin-bottom: 16px;
+}
+
+.inputLabel {
+  display: block;
+
+  margin-bottom: 8px;
+
+  font-size: 1.25rem;
+}
