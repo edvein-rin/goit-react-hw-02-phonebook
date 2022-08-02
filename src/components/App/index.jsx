@@ -44,11 +44,12 @@ export const App = () => {
     return false;
   };
 
-  const onContactFormSubmit = ({ name, number }) => {
+  const onContactFormSubmit = ({ name, number, onSuccess }) => {
     if (isContactInContacts(name)) {
       alert(`${name} is already in contacts`);
     } else {
       addContact(name, number);
+      onSuccess();
     }
   };
 
